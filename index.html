@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ghalia Hannachi – Data Science &amp; AI Portfolio</title>
+<style>
+:root{--bg:#fafbfd;--fg:#14202e;--muted:#55657a;--card:#ffffff;--line:#dde3ec;--accent:#1f3a5f;--tag:#e8eef7;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1722;--fg:#e6edf5;--muted:#9fb0c3;--card:#172233;--line:#263449;--accent:#7fb0ff;--tag:#223250;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1722;--fg:#e6edf5;--muted:#9fb0c3;--card:#172233;--line:#263449;--accent:#7fb0ff;--tag:#223250;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+nav{display:flex;gap:18px;justify-content:flex-end;padding:18px 0;font-size:14px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.hero{padding:36px 0 28px}
+.avatar{width:72px;height:72px;border-radius:50%;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-weight:700;font-size:26px;margin-bottom:16px}
+h1{font-size:clamp(30px,6vw,46px);line-height:1.15;margin:0 0 6px}
+.role{font-size:clamp(17px,3vw,21px);color:var(--accent);font-weight:600;margin:0 0 12px}
+.lead{max-width:640px;color:var(--muted);margin:0 0 20px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{padding:9px 16px;border-radius:8px;border:1px solid var(--accent);font-weight:600;font-size:14px}
+.btn.p{background:var(--accent);color:var(--bg)}.btn:hover{text-decoration:none;opacity:.88}
+section{padding:26px 0}
+h2{font-size:22px;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:0 0 2px;font-size:17px}
+.kind{font-size:13px;color:var(--muted);margin:0 0 10px}
+.card ul{margin:0 0 12px;padding-left:18px;color:var(--fg);font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{background:var(--tag);color:var(--accent);font-size:12px;padding:2px 9px;border-radius:99px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.skills h3{font-size:14px;margin:0 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.row+.row{margin-top:10px}
+footer{padding:28px 0 36px;color:var(--muted);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+  <div class="avatar">GH</div>
+  <h1>Ghalia Hannachi</h1>
+  <p class="role">Data Science Master’s Student · Seeking a PFE internship in AI</p>
+  <p class="lead">I build machine learning and NLP solutions, from predictive models to natural-language assistants. Currently interested in AI agents for personalized learning.</p>
+  <div class="btns">
+    <a class="btn p" href="https://github.com/ghaliahannachi2-rgb">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/ghalia-hannachi-40285525b/">LinkedIn</a>
+    <a class="btn" href="mailto:ghaliahannachi2@gmail.com">Email me</a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I’m a Master’s student in Data Science at ISIMM (Monastir) with a Bachelor’s degree in Mathematics. My studies cover Machine Learning, Deep Learning, Data Mining, Big Data, Business Intelligence, Cloud and DevOps. I enjoy end-to-end work: understanding the data, building and evaluating the model, and turning it into something people can use.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Scientific Document Analysis Platform</h3>
+      <p class="kind">Summer 2026 internship · NLP &amp; web scraping</p>
+      <ul><li>AI-based platform for analyzing scientific documents.</li><li>Automated collection of articles via web scraping.</li><li>NLP techniques to analyze and exploit the documents.</li></ul>
+      <div class="tags"><span>NLP</span><span>Web scraping</span><span>AI</span></div>
+    </article>
+    <article class="card">
+      <h3>Predictive Maintenance with AI Assistant</h3>
+      <p class="kind">Database project</p>
+      <ul><li>Real-time monitoring of an industrial machine fleet.</li><li>Anomaly detection with rigorous model evaluation.</li><li>Natural-language diagnostic assistant for technicians, based on maintenance manuals.</li></ul>
+      <div class="tags"><span>Anomaly detection</span><span>Databases</span><span>NLP assistant</span></div>
+    </article>
+    <article class="card">
+      <h3>Corporate Bankruptcy Prediction</h3>
+      <p class="kind">Machine Learning project</p>
+      <ul><li>Classifies at-risk companies from financial indicators.</li><li>Feature selection and class imbalance handled with SMOTE.</li><li>Evaluated with accuracy, precision, recall and ROC-AUC.</li></ul>
+      <div class="tags"><span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>Random Forest</span></div>
+    </article>
+    <article class="card">
+      <h3>Financial Loss Estimation</h3>
+      <p class="kind">Machine Learning project</p>
+      <ul><li>Regression models on historical data and risk factors.</li><li>EDA, feature engineering and cross-validation.</li><li>Evaluated with RMSE and MAE.</li></ul>
+      <div class="tags"><span>Python</span><span>Statsmodels</span><span>Gradient Boosting</span></div>
+    </article>
+    <article class="card">
+      <h3>Restaurant Delivery Web App</h3>
+      <p class="kind">Web programming project</p>
+      <ul><li>Full-stack ordering and delivery application, frontend and backend.</li></ul>
+      <div class="tags"><span>Frontend</span><span>Backend</span></div>
+    </article>
+    <article class="card">
+      <h3>Digital File Signature</h3>
+      <p class="kind">Blockchain project</p>
+      <ul><li>Proves a file’s origin (authenticity) and that it has not been modified since signing (integrity).</li></ul>
+      <div class="tags"><span>Blockchain</span><span>Security</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Languages</h3><div class="tags"><span>Python</span><span>SQL</span></div></div>
+    <div><h3>ML &amp; AI</h3><div class="tags"><span>Machine Learning</span><span>Deep Learning</span><span>NLP</span><span>Anomaly detection</span><span>Statistics</span><span>Data Mining</span></div></div>
+    <div><h3>Libraries</h3><div class="tags"><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>XGBoost</span><span>Statsmodels</span><span>Matplotlib</span><span>Seaborn</span></div></div>
+    <div><h3>Data &amp; BI</h3><div class="tags"><span>Big Data</span><span>Business Intelligence</span><span>Data Visualization</span><span>Databases</span></div></div>
+    <div><h3>Tools</h3><div class="tags"><span>Jupyter</span><span>Google Colab</span><span>Git/GitHub</span><span>Excel</span></div></div>
+    <div><h3>Languages spoken</h3><div class="tags"><span>Arabic (native)</span><span>French (fluent)</span><span>English (intermediate)</span></div></div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="row"><strong>Master’s in Data Science, ISIMM Monastir</strong><span>2025 – Present</span></div>
+  <div class="row"><strong>Bachelor’s in Mathematics, Faculty of Sciences of Monastir</strong><span>2021 – 2024</span></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Open to a final-year internship (PFE) in Data Science and AI. <a href="mailto:ghaliahannachi2@gmail.com">ghaliahannachi2@gmail.com</a> · +216 54 594 201 · Tunis, Tunisia</p>
+</section>
+
+<footer>© Ghalia Hannachi</footer>
+</div>
+</body>
+</html>
